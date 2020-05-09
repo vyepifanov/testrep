@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Здесь будет страница "О сервисе"</h1>
+    <br>
+    {% if (role) == "admin" %}
+    <img src="/static/images/01.jpg">
+    {% endif %}
+    <br>
+    <a href="/"> На главную ({{role}}) </a>
+</body>
+</html>
